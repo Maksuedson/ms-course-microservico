@@ -190,6 +190,7 @@ Variáveis:
 - token: 
 
 Script para atribuir token à variável de ambiente do Postman:
+na aba Tests
 ```js
 if (responseCode.code >= 200 && responseCode.code < 300) {
     var json = JSON.parse(responseBody);
